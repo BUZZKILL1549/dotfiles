@@ -1,0 +1,5 @@
+2025/04/21-13:57:20.513 1315c Creating DB /home/buzzkill/.config/discord/Local Storage/leveldb since it was missing.
+2025/04/21-13:57:20.538 1315c Reusing MANIFEST /home/buzzkill/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/04/21-14:02:23.471 1315c Level-0 table #5: started
+2025/04/21-14:02:23.561 1315c Level-0 table #5: 3557413 bytes OK
+2025/04/21-14:02:23.565 1315c Delete type=0 #3

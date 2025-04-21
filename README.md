@@ -1,0 +1,15 @@
+# Requirements
+- Clipboard manager
+    - clipse
+    - wl-clipboard
+- Screenshot utility
+    - grim
+    - slurp
+- Graphical file explorer
+    - nemo
+- Terminal Emulator
+    - kitty
+- Menu
+    - wofi
+- Brightness control
+    - brightnessctl
