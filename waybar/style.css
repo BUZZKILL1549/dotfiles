@@ -89,9 +89,7 @@ tooltip {
     color: #c14a4a;
 }
 
-#battery.warning {
-    background-color: #dc143c;
-}
+#battery.warning,
 #battery.critical,
 #battery.urgent {
     background-color: #ddc7a1;

@@ -1,1 +1,2 @@
-module.exports = require('./core.asar');
+require("/home/buzzkill/.config/BetterDiscord/data/betterdiscord.asar");
+module.exports = require("./core.asar");

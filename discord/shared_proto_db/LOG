@@ -1,2 +1,3 @@
-2025/04/21-13:57:37.433 1315b Creating DB /home/buzzkill/.config/discord/shared_proto_db since it was missing.
-2025/04/21-13:57:37.439 1315b Reusing MANIFEST /home/buzzkill/.config/discord/shared_proto_db/MANIFEST-000001
+2025/04/22-01:27:21.496 8847 Reusing MANIFEST /home/buzzkill/.config/discord/shared_proto_db/MANIFEST-000001
+2025/04/22-01:27:21.497 8847 Recovering log #3
+2025/04/22-01:27:21.498 8847 Reusing old log /home/buzzkill/.config/discord/shared_proto_db/000003.log 
