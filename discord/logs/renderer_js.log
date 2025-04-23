@@ -2722,3 +2722,13 @@ Possible causes: the network is offline, Origin is not allowed by Access-Control
 [2025-04-22 21:51:26.909] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Error adding event [object Object]
 [2025-04-22 21:56:08.931] [error] [KeyboardLayoutMapUtils] KeyboardMapper - Error adding event [object Object]
 [2025-04-22 21:56:39.904] [info]  [WindowVisibilityVideoManager] Incoming video enabled changed, incomingVideoEnabled = false
+[2025-04-22 22:00:57.920] [info]  [GatewaySocket] [WS CLOSED] (true, 4003, Not authenticated.) retrying in 1.35 seconds.
+[2025-04-22 22:00:59.905] [info]  [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-04-22 22:01:00.383] [info]  [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 478 ms
+[2025-04-22 22:01:00.385] [info]  [GatewaySocket] [RESUME] resuming session 2dfe0a5e95d8f5dc42e8e2bc51c4cb00, seq: 682
+[2025-04-22 22:01:00.688] [info]  [GatewaySocket] [INVALID_SESSION]
+[2025-04-22 22:01:01.098] [warn]  [GatewaySocket] [WS CLOSED] because of authentication failure, marking as closed.
+[2025-04-22 22:01:01.099] [warn]  [GatewaySocket] [RESET] (true, 4004, Authentication failed.)
+[2025-04-22 22:01:01.099] [info]  [Flux] Dispatching CONNECTION_CLOSED
+[2025-04-22 22:01:01.173] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs undefined
+[2025-04-22 22:01:01.245] [info]  [Routing/Utils] transitionTo - Transitioning to /login

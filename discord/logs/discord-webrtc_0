@@ -193,3 +193,14 @@ Render pre processor: 0
 [2025-04-22 21:36:19.534] [2208] JS console: [GatewaySocket] [READY] took 2253ms, as 2dfe0a5e95d8f5dc42e8e2bc51c4cb00
 [2025-04-22 21:36:19.753] [2208] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 2472ms
 [2025-04-22 21:51:15.606] [2232] (instrumented_task.cpp:52): polling 25 metrics
+[2025-04-22 22:00:57.920] [2208] JS console: [GatewaySocket] [WS CLOSED] (true, 4003, Not authenticated.) retrying in 1.35 seconds.
+[2025-04-22 22:00:59.905] [2208] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-04-22 22:01:00.383] [2208] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 478 ms
+[2025-04-22 22:01:00.384] [2208] JS console: [GatewaySocket] [RESUME] resuming session 2dfe0a5e95d8f5dc42e8e2bc51c4cb00, seq: 682
+[2025-04-22 22:01:00.687] [2208] JS console: [GatewaySocket] [INVALID_SESSION]
+[2025-04-22 22:01:01.098] [2208] JS console: [GatewaySocket] [WS CLOSED] because of authentication failure, marking as closed.
+[2025-04-22 22:01:01.098] [2208] JS console: [GatewaySocket] [RESET] (true, 4004, Authentication failed.)
+[2025-04-22 22:06:15.938] [2232] (instrumented_task.cpp:52): polling 1 metrics
+[2025-04-22 22:21:16.904] [2232] (instrumented_task.cpp:52): polling 1 metrics
+[2025-04-22 22:36:17.903] [2232] (instrumented_task.cpp:52): polling 1 metrics
+[2025-04-22 22:51:18.903] [2232] (instrumented_task.cpp:52): polling 1 metrics

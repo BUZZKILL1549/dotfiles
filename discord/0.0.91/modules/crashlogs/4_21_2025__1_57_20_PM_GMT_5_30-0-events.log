@@ -90,3 +90,4 @@
 4/22/2025, 9:36:17 PM GMT+5:30 9: webContents.destroyed web1
 4/22/2025, 9:36:17 PM GMT+5:30 10: window.closed win1
 4/22/2025, 9:56:09 PM GMT+5:30 11: window.close win2
+4/22/2025, 10:55:45 PM GMT+5:30 12: before-quit

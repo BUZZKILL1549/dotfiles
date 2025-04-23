@@ -10,7 +10,7 @@
 
     "modules-left": [
         "hyprland/workspaces",
-    	"custom/pacman"
+    	  "custom/pacman"
     ],
 
     "modules-center": [
@@ -19,7 +19,7 @@
 
     "modules-right": [
         "tray",
-	"backlight",
+      	"backlight",
         "pulseaudio",
         "network",
         "battery"
@@ -28,18 +28,18 @@
     "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
-    	"warp-on-scroll": false,
-	"format": "{icon}",
-	"format-icons": {
-	    "1": "1",
-	    "2": "2",
-	    "3": "3",
-	    "4": "4",
-	    "5": "5"
-	},
-	"persistent-workspaces": {
-	    "*": [ 1,2,3,4,5 ]
-	}
+    	  "warp-on-scroll": false,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5"
+        },
+	      "persistent-workspaces": {
+	          "*": [ 1,2,3,4,5 ]
+	      }
     },
 
     "tray": {
@@ -85,7 +85,8 @@
         "format-ethernet": "enth {essid}",
         "format-disconnected" : "no network",
         "interval": 5,
-        "tooltip": false
+        "tooltip": false,
+        "on-click": "kitty nmtui"
     },
 
     "backlight": {
@@ -103,12 +104,12 @@
     },
 
     "custom/pacman": {
-	"format": "󰅢  {}",
-	"interval": 30,
-	"exec": "checkupdates | wc -l",
-	"exec-if": "exit 0",
-	"on-click": "kitty sh -c 'yay -Syu; echo Done - Press Enter to exit; read'; pkill -SIGRTMIN+8 waybar",
-	"signal": 8,
-	"tooltip": false
+        "format": "󰅢  {}",
+        "interval": 30,
+        "exec": "checkupdates | wc -l",
+        "exec-if": "exit 0",
+        "on-click": "kitty sh -c 'yay -Syu; echo Done - Press Enter to exit; read'; pkill -SIGRTMIN+8 waybar",
+        "signal": 8,
+        "tooltip": false
     }
 }
