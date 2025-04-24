@@ -81,11 +81,12 @@
     },
 
     "network": {
-        "format-wifi" : "{essid}",
+        "format-wifi" : "wifi on",
         "format-ethernet": "enth {essid}",
-        "format-disconnected" : "no network",
+        "format-disconnected" : "no network", 
         "interval": 5,
-        "tooltip": false,
+        "tooltip": true,
+        "tooltip-format": "<tt>{essid}</tt>",
         "on-click": "kitty nmtui"
     },
 
@@ -99,7 +100,7 @@
         "format": "vol {volume}%",
         "format-bluetooth": "vol {volume}%",
         "nospacing": 1,
-        "on-click": "pavucontrol",
+        "on-click": "pypr toggle music",
         "tooltip": false
     },
 

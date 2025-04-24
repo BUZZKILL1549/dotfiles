@@ -1,0 +1,20 @@
+[pyprland]
+plugins = [
+  "scratchpads",
+]
+
+[pyprland.variables]
+term_classed = "kitty --class"
+
+[scratchpads.term]
+animation = "fromTop"
+command = "[term_classed] main-dropterm"
+class = "main-dropterm"
+size = "75% 60%"
+max_size = "1920px 100%"
+
+[scratchpads.soundBar]
+animation = "fromBottom"
+command = "[term_classed] main-pulsemixer -e pulsemixer"
+class = "main-pulsemixer"
+size = "50% 20%"
