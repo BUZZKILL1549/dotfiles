@@ -1,8 +1,3 @@
-2025/04/22-21:36:12.457 7b1 Reusing MANIFEST /home/buzzkill/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2025/04/22-21:36:12.465 7b1 Recovering log #7
-2025/04/22-21:36:12.494 7b1 Level-0 table #10: started
-2025/04/22-21:36:12.535 7b1 Level-0 table #10: 3578405 bytes OK
-2025/04/22-21:36:12.540 7b1 Delete type=0 #7
-2025/04/22-21:39:38.262 7b2 Level-0 table #13: started
-2025/04/22-21:39:38.342 7b2 Level-0 table #13: 1019437 bytes OK
-2025/04/22-21:39:38.345 7b2 Delete type=0 #11
+2025/04/25-21:42:26.103 3071 Reusing MANIFEST /home/buzzkill/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/04/25-21:42:26.110 3071 Recovering log #12
+2025/04/25-21:42:26.110 3071 Reusing old log /home/buzzkill/.config/discord/Local Storage/leveldb/000012.log 

@@ -25,6 +25,7 @@ tooltip {
 #cpu,
 #memory,
 #battery,
+#custom-notifications,
 #network,
 #pulseaudio {
     margin: 6px 6px 6px 0px;
@@ -75,6 +76,12 @@ tooltip {
 }
 
 #battery {
+    background-color: #ddc7a1;
+    border: 2px solid #c7ab7a;
+    color: #1d2021;
+}
+
+#custom-notifications {
     background-color: #ddc7a1;
     border: 2px solid #c7ab7a;
     color: #1d2021;

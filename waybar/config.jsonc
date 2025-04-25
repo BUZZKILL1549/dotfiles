@@ -19,10 +19,11 @@
 
     "modules-right": [
         "tray",
-      	"backlight",
+        "backlight",
         "pulseaudio",
         "network",
-        "battery"
+        "battery",
+        "custom/notifications"
     ],
 
     "hyprland/workspaces": {
@@ -100,7 +101,7 @@
         "format": "vol {volume}%",
         "format-bluetooth": "vol {volume}%",
         "nospacing": 1,
-        "on-click": "pypr toggle music",
+        "on-click": "pypr toggle soundBar",
         "tooltip": false
     },
 
@@ -111,6 +112,13 @@
         "exec-if": "exit 0",
         "on-click": "kitty sh -c 'yay -Syu; echo Done - Press Enter to exit; read'; pkill -SIGRTMIN+8 waybar",
         "signal": 8,
+        "tooltip": false
+    },
+
+    "custom/notifications": {
+        "format": " ",
+        "on-click": "swaync-client -t -sw",
+        "escape": true,
         "tooltip": false
     }
 }
